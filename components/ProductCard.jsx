@@ -25,7 +25,7 @@ const ProductCard = ({ product }) => {
                         ))}
                     </div>
                 </div>
-                <p>{currency}{product.price}</p>
+                <p>{product.price}{currency}</p>
             </div>
         </Link>
     )
